@@ -32,7 +32,7 @@ export function getJovenes(): Joven[] {
 
                 if (fs.existsSync(folderPath)) {
                     const files = fs.readdirSync(folderPath);
-                    const imageFile = files.find(file => /\.(png|jpg|jpeg|webp)$/i.test(file));
+                    const imageFile = files.find(file => /\.(png|jpg|jpeg|webp)$/i.test(file) && !file.includes('qr.png'));
 
                     if (imageFile) {
                         imagePath = `/jovenes/${folder}/${imageFile}`;

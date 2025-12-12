@@ -14,8 +14,8 @@ export function TitleSection({ count }: { count: number }) {
                 <h1 className="font-display text-[13vw] leading-[0.8] font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/20 mix-blend-overlay opacity-90 select-none">
                     YAHWEH
                 </h1>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-center mix-blend-course">
-                    <span className="block text-xl md:text-3xl text-primary font-display font-bold tracking-[0.6em] uppercase blur-[1px]">Generación Emergente</span>
+                <div className="relative mt-4 md:absolute md:mt-0 md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-full text-center">
+                    <span className="block text-sm md:text-3xl text-primary font-display font-bold tracking-[0.6em] uppercase blur-[1px]">Generación Emergente</span>
                 </div>
             </motion.div>
 
