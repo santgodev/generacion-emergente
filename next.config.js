@@ -8,7 +8,6 @@ const nextConfig = {
         unoptimized: true,
     },
     basePath: isProd ? `/${repoName}` : '',
-    assetPrefix: isProd ? `/${repoName}/` : '',
 }
 
 module.exports = nextConfig
