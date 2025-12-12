@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Nebular Spirit Colors - Dark Default */
+    --background: 240 10% 3.9%;
+    /* Next to Black, slight purple tint (Zinc-950 modified) */
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 239 84% 67%;
+    /* Electric Indigo #6366f1 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 48 96% 53%;
+    /* Stardust Gold #facc15 */
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 189 94% 43%;
+    /* Neon Cyan #06b6d4 */
+    --accent-foreground: 0 0% 98%;
+    --accent-glow: 189 94% 43%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image: var(--noise);
+  }
+}
+
+/* Custom Utopia Utilities */
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px hsla(var(--primary), 0.5);
+  }
+
+  .glass-panel {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+
+  .glass-card {
+    @apply bg-zinc-900/40 backdrop-blur-md border border-white/5 hover:border-primary/50 transition-all duration-500 hover:shadow-[0_0_30px_-5px_hsl(var(--primary)/0.3)];
+  }
+}
