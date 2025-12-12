@@ -35,7 +35,8 @@ export function getJovenes(): Joven[] {
                     const imageFile = files.find(file => /\.(png|jpg|jpeg|webp)$/i.test(file) && !file.includes('qr.png'));
 
                     if (imageFile) {
-                        imagePath = `/jovenes/${folder}/${imageFile}`;
+                        const basePath = process.env.NODE_ENV === 'production' ? '/generacion-emergente' : '';
+                        imagePath = `${basePath}/jovenes/${folder}/${imageFile}`;
                     }
                 }
 
