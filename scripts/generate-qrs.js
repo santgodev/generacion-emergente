@@ -2,10 +2,8 @@ const QRCode = require('qrcode');
 const fs = require('fs');
 const path = require('path');
 
-// Local IP Address (Verify this matches ipconfig)
-const LOCAL_IP = '192.168.1.75';
-const PORT = 3000;
-const BASE_URL = `http://${LOCAL_IP}:${PORT}`;
+// Production URL
+const BASE_URL = 'https://santgodev.github.io/generacion-emergente';
 
 const jovenesDir = path.join(__dirname, '../public/jovenes');
 
