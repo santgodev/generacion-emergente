@@ -100,9 +100,9 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                 </div>
 
                 {/* Specs / Data Section */}
-                <div className="lg:col-span-7 flex flex-col justify-center">
+                <div className="lg:col-span-7 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
 
-                    <div className="mb-8">
+                    <div className="mb-8 w-full">
                         <motion.h1
                             className="font-display text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.8]"
                             animate={isRepowered ? { textShadow: "0 0 40px rgba(255,255,255,0.3)" } : {}}
@@ -113,7 +113,7 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                             <span className="block text-2xl md:text-4xl lg:text-5xl text-indigo-500 tracking-normal font-sans font-medium mt-2">{lastName}</span>
                         </motion.h1>
 
-                        <div className="mt-8 min-h-[100px] border-l-2 border-primary pl-6">
+                        <div className="mt-8 min-h-[100px] border-l-0 lg:border-l-2 border-primary pl-0 lg:pl-6 flex flex-col items-center lg:items-start">
                             <AnimatePresence mode="wait">
                                 {!isRepowered ? (
                                     <motion.p
@@ -147,18 +147,18 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                     </div>
 
                     {/* REPOWER BUTTON */}
-                    <div className="mb-12 flex justify-start">
+                    <div className="mb-12 flex justify-center lg:justify-start w-full">
                         <RepowerButton
                             isActive={isRepowered}
                             onClick={() => setIsRepowered(!isRepowered)}
                         />
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
 
                         {/* Card: Archetype */}
                         <div className="glass-card p-6 rounded-xl transition-all duration-500 hover:bg-white/5">
-                            <div className="flex items-center gap-3 mb-4 text-primary">
+                            <div className="flex items-center justify-center lg:justify-start gap-3 mb-4 text-primary">
                                 <Star className={`w-5 h-5 transition-all duration-500 ${isRepowered ? 'text-yellow-400 drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]' : ''}`} />
                                 <h3 className="font-mono text-xs uppercase tracking-widest">Arquetipo</h3>
                             </div>
@@ -168,7 +168,7 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
 
                         {/* Card: Role */}
                         <div className="glass-card p-6 rounded-xl transition-all duration-500 hover:bg-white/5">
-                            <div className="flex items-center gap-3 mb-4 text-secondary">
+                            <div className="flex items-center justify-center lg:justify-start gap-3 mb-4 text-secondary">
                                 <Zap className={`w-5 h-5 transition-all duration-500 ${isRepowered ? 'text-blue-400 drop-shadow-[0_0_8px_rgba(96,165,250,0.8)]' : ''}`} />
                                 <h3 className="font-mono text-xs uppercase tracking-widest">Función Táctica</h3>
                             </div>
@@ -177,12 +177,12 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
 
                         {/* Card: Stats/Qualities */}
                         <div className="glass-card p-6 rounded-xl md:col-span-2">
-                            <div className="flex items-center gap-3 mb-6 text-accent">
+                            <div className="flex items-center justify-center lg:justify-start gap-3 mb-6 text-accent">
                                 <Heart className={`w-5 h-5 transition-all duration-500 ${isRepowered ? 'text-pink-400 drop-shadow-[0_0_8px_rgba(244,114,182,0.8)]' : ''}`} />
                                 <h3 className="font-mono text-xs uppercase tracking-widest">Cualidades & Habilidades</h3>
                             </div>
 
-                            <div className="flex flex-wrap gap-3 mb-8">
+                            <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-8">
                                 {joven.data.cualidadesPrincipales.map((c, i) => (
                                     <motion.span
                                         key={i}
