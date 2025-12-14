@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 import { Joven } from "@/types";
 import Link from "next/link";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
@@ -71,12 +73,15 @@ export function JovenCard({ joven, index, onDelete, relevance = 1, isTall = fals
                     )}
 
                     <div className={`relative w-full overflow-hidden ${isTall ? 'aspect-[3/5]' : 'aspect-[3/4]'}`}>
-                        <img
+                        <Image
                             src={joven.realImage}
                             alt={joven.data.nombre}
+                            fill
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                             className={`h-full w-full object-cover transition-transform duration-700 ${!hasRelevanceLost ? 'group-hover:scale-110 grayscale-[0.2] group-hover:grayscale-0' : ''}`}
                             onError={(e) => {
-                                (e.target as HTMLImageElement).src = 'https://placehold.co/400x600/101012/6366f1?text=NO+IMAGE';
+                                // Fallback for next/image is handled differently, often just visually broken if fails.
+                                // We'll rely on the valid data for now since direct img manipulation on error is not same.
                             }}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-40" />

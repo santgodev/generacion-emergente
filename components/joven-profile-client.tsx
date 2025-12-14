@@ -38,8 +38,15 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                 <div className="lg:col-span-5 relative group">
                     <div className="sticky top-24">
                         <div
-                            className="relative aspect-[4/5] [perspective:1000px] cursor-pointer group/card"
+                            role="button"
+                            tabIndex={0}
+                            className="relative z-20 aspect-[4/5] [perspective:1000px] cursor-pointer group/card focus:outline-none"
                             onClick={() => setIsFlipped(!isFlipped)}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    setIsFlipped(!isFlipped);
+                                }
+                            }}
                         >
                             <motion.div
                                 className={`relative w-full h-full transition-all duration-700 [transform-style:preserve-3d] ${isFlipped ? '[transform:rotateY(180deg)]' : ''}`}
