@@ -1,14 +1,19 @@
 {
   "nombre": "Laura Rojas",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Disciplina y Talento",
+  "descripcion": "Laura es exigente consigo misma, muy talentosa y profundamente servicial.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Disciplina",
+    "Talento",
+    "Entrega",
+    "Responsabilidad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Excelencia Constante: Da lo mejor en todo lo que hace.",
+  "fraseEmblema": "Hacerlo bien también honra a Dios.",
+  "rolEnElEquipo": "Ejemplo de Dedicación",
+  "transformacion": "Laura, recuerda que no tienes que cargar sola con todo. Dios también te invita a descansar.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "Como Marta, sirves con todo el corazón, pero Dios también cuida de ti."
+  }
 }

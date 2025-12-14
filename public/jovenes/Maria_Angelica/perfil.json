@@ -1,14 +1,19 @@
 {
-  "nombre": "María Angélica",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Maria Angelica",
+  "avatarNombre": "Luz Interior",
+  "descripcion": "María Angélica es madura y talentosa, aunque muchas veces no logra ver su propio valor.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Creatividad",
+    "Sensibilidad",
+    "Madurez",
+    "Perseverancia"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Arte que Expresa: Su dibujo comunica lo que a veces no puede decir.",
+  "fraseEmblema": "Lo que siento también importa.",
+  "rolEnElEquipo": "Expresión del Alma",
+  "transformacion": "María Angélica, no eres invisible. Dios ve cada detalle de ti y lo llama valioso.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "Dios mira el corazón, no lo que otros opinan."
+  }
 }

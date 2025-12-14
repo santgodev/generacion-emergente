@@ -1,14 +1,19 @@
 {
   "nombre": "Juan Pablo",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Ritmo Alegre",
+  "descripcion": "Juan Pablo es un joven muy carismático, con un corazón sencillo e inocente. A veces es despistado, pero siempre transmite alegría y buena energía a quienes están cerca.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Inocencia",
+    "Alegría",
+    "Carisma",
+    "Creatividad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Guitarra Viva: Tiene la capacidad de transformar cualquier momento en algo especial a través de la guitarra eléctrica.",
+  "fraseEmblema": "La alegría también es un regalo.",
+  "rolEnElEquipo": "Portador de Gozo",
+  "transformacion": "Juan Pablo, tu corazón sencillo es un tesoro. No todos están llamados a ser duros o complicados; algunos reflejan a Dios desde la alegría, la risa y la pureza. Aunque a veces te sientas despistado, Dios usa tu forma de ser para traer luz y descanso a otros. Sigue disfrutando lo que amas, porque incluso ahí Él se hace presente.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "Tu forma de ser recuerda al joven David: alegre, creativo y con un corazón genuino que adoraba a Dios con música."
+  }
 }

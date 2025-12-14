@@ -1,14 +1,19 @@
 {
   "nombre": "Derek",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Paso Constante",
+  "descripcion": "Derek es un joven que busca crecer, aun cuando el camino no siempre es recto. Su proceso es real y honesto.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Perseverancia",
+    "Honestidad",
+    "Aprendizaje",
+    "Fe en construcción"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Resistencia Espiritual: Aunque tropieza, siempre vuelve a intentarlo.",
+  "fraseEmblema": "Seguir intentando también es fe.",
+  "rolEnElEquipo": "Testimonio real",
+  "transformacion": "Derek, tu camino no es perfecto, pero es sincero. Dios no se aleja cuando fallas, camina contigo mientras aprendes. Cada regreso habla de un corazón que no se rinde.",
+  "flipCard": {
+    "tipo": "promesa",
+    "contenido": "El justo podrá caer, pero no quedará en el suelo, porque Dios lo sostiene."
+  }
 }

@@ -1,14 +1,19 @@
 {
-  "nombre": "Salome",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Salomé",
+  "avatarNombre": "Luz Inquieta",
+  "descripcion": "Salomé es una joven con una energía única. Lleva años sirviendo y siempre está dispuesta a ayudar, especialmente en audiovisuales. Su personalidad espontánea y un poco loca le da vida al grupo.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Entrega",
+    "Alegría",
+    "Servicio",
+    "Creatividad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Adaptación Rápida: Siempre encuentra la forma de ayudar y sacar adelante lo que se necesita.",
+  "fraseEmblema": "Siempre hay algo bueno por hacer.",
+  "rolEnElEquipo": "Impulsora Creativa",
+  "transformacion": "Salomé, sé que en tu corazón hay anhelos que todavía no se han cumplido y a veces eso pesa más de lo que muestras. Pero Dios no se ha olvidado de ninguno de ellos. Cada etapa que vives, incluso las que parecen pausas, está formando algo más grande en ti. Tu constancia y tu servicio no pasan desapercibidos, y lo que hoy parece espera, mañana tendrá sentido.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "Su historia recuerda a Ana, quien esperó con paciencia mientras Dios trabajaba en silencio."
+  }
 }

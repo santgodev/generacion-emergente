@@ -1,14 +1,19 @@
 {
   "nombre": "Gisell",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Presencia Serena",
+  "descripcion": "Gisell es una joven callada y carismática, con una forma especial de estar presente. Aunque no siempre se nota, su esencia deja huella.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Carisma",
+    "Calma",
+    "Sensibilidad",
+    "Autenticidad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Quietud Firme: Su presencia transmite paz sin necesidad de muchas palabras.",
+  "fraseEmblema": "No todo lo fuerte hace ruido.",
+  "rolEnElEquipo": "Calma del Grupo",
+  "transformacion": "Gisell, no necesitas estar siempre para ser valiosa. Dios trabaja también en los procesos lentos y en los pasos pequeños.",
+  "flipCard": {
+    "tipo": "datoCurioso",
+    "contenido": "En la Biblia, Dios muchas veces habla en el silencio y no en el ruido; la quietud también es una forma de presencia."
+  }
 }

@@ -1,14 +1,19 @@
 {
   "nombre": "Valentina Paba",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Misterio Inicial",
+  "descripcion": "Valentina acaba de llegar y todavía es un misterio, pero toda historia comienza con un primer paso.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Curiosidad",
+    "Apertura",
+    "Presencia",
+    "Potencial"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Inicio Silencioso: Su historia apenas comienza a escribirse.",
+  "fraseEmblema": "Todo empieza con llegar.",
+  "rolEnElEquipo": "Nueva Historia",
+  "transformacion": "Valentina, no necesitas demostrar nada. Dios se encarga de revelar cada proceso a su tiempo.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "Las mejores historias no se apresuran."
+  }
 }

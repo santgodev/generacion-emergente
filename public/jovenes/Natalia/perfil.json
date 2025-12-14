@@ -1,14 +1,19 @@
 {
   "nombre": "Natalia",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Llama Constante",
+  "descripcion": "Natalia es una líder comprometida, activa y presente. Tiene una energía que no se apaga y una responsabilidad que se nota en cada cosa que hace. Es madre, esposa y aun así siempre encuentra la forma de estar para los demás.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Liderazgo",
+    "Compromiso",
+    "Valentía",
+    "Entrega"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Corazón que Sostiene: Tiene la capacidad de mantenerse firme en medio del cansancio y seguir guiando sin abandonar a nadie.",
+  "fraseEmblema": "Servir también es mantenerse de pie cuando otros se cansan.",
+  "rolEnElEquipo": "Guía Incansable",
+  "transformacion": "Natalia, sé que a veces luchas con tu carácter y que dices lo que piensas sin rodeos. Puede que eso haga que algunos no siempre te entiendan, pero ese mismo fuego es el que te permite liderar con verdad. Dios no te llamó a ser suave todo el tiempo, sino fiel. Él está puliendo tu corazón para que esa fuerza sea cada vez más guiada por amor, y no por cansancio. No estás sola en la carga que llevas.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "Tu liderazgo recuerda a Nehemías: firme, comprometido y dispuesto a reconstruir, aun cuando nadie más quiere cargar el peso."
+  }
 }

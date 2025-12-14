@@ -19,36 +19,39 @@ export function JovenGrid({ jovenes }: { jovenes: Joven[] }) {
     };
 
     return (
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6 auto-rows-[300px]">
+        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6 auto-rows-[250px]">
             {activeJovenes.map((joven, index) => {
-                const isTall = index % 3 === 0;
+                // Masonry Logic restored but controlled
+                // We keep the "Tall" cards (index % 3 === 0) creates a nice rhythm.
+                // BUT, to ensure the grid ends "mostly even", we force the last few items to be SHORT.
+                // This prevents a tall card at the very end hanging down alone at the bottom.
+                // increased buffer to 12 to cover the last ~2 rows, ensuring Natalia and others align perfectly.
+                // User EXCEPTION: Natalia, Joshua, Santiago Avila, Daniel Burgos, and Maria Angelica must ALWAYS be tall.
+                // Cristian must NEVER be tall (even if he falls on a mod 3 spot).
+                const isTall = ((index % 3 === 0 && index < activeJovenes.length - 12 && joven.slug !== 'Cristian') ||
+                    ['Natalia', 'Joshua', 'Santiago_Avila', 'Daniel_Burgos', 'Maria_Angelica'].includes(joven.slug));
                 const isHovered = hoveredIndex === index;
 
                 // Relevance Calculation
-                // If a deletion occurred, items closer to the "void" (lastDeletedIndex) lose saturation
                 let relevance = 1;
                 if (lastDeletedIndex !== -1) {
                     const distance = Math.abs(index - lastDeletedIndex);
-                    // Items that slide INTO the position (distance 0) are most affected
-                    // Gradient: 0 -> 0.2 relevance, 4 -> 1.0 relevance
                     relevance = Math.min(1, 0.2 + (distance * 0.25));
                 }
 
                 return (
                     <motion.div
-                        key={joven.slug} // Keep slug as key to help React track identity
-                        layout // Animate layout changes when items are removed
+                        key={joven.slug}
+                        layout
                         className={`${isTall ? "sm:row-span-2" : "row-span-1"} relative transition-all duration-200 ${isHovered ? 'z-50' : 'z-auto'}`}
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
-                        animate={{
-                            // scale: isHovered ? 1.05 : 1, // Removed to avoid double zoom (inner image already zooms)
-                        }}
                         transition={{ duration: 0.3, ease: "easeOut" }}
                     >
                         <JovenCard
                             joven={joven}
                             index={index}
+                            isTall={isTall}
                             onDelete={() => handleDelete(joven.slug, index)}
                             relevance={relevance}
                         />

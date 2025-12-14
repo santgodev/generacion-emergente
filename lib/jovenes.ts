@@ -11,6 +11,9 @@ export function getJovenes(): Joven[] {
 
     const folders = fs.readdirSync(JOVENES_DIR).filter((folder) => {
         const folderPath = path.join(JOVENES_DIR, folder);
+        // Exclude Sofia Gutierrez as requested by user
+        if (folder === 'Sofia_Gutierrez') return false;
+
         return fs.statSync(folderPath).isDirectory();
     });
 

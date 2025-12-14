@@ -1,14 +1,19 @@
 {
-  "nombre": "Sofía Gutiérrez",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Sofia Gutierrez",
+  "avatarNombre": "Disciplina Alegre",
+  "descripcion": "Sofía es carismática y divertida, con una disciplina marcada en su vida diaria, aunque hoy esté lejos de la iglesia.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Disciplina",
+    "Carisma",
+    "Autenticidad",
+    "Buen Humor"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Constancia Firme: Cuando se propone algo, lo sostiene.",
+  "fraseEmblema": "La constancia también habla.",
+  "rolEnElEquipo": "Potencial en Espera",
+  "transformacion": "Sofía, Dios conoce tu corazón incluso en la distancia. Nada de lo bueno que hay en ti se pierde, solo espera el momento de volver a florecer.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "Alejarse no borra lo que Dios sembró."
+  }
 }

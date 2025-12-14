@@ -1,14 +1,19 @@
 {
   "nombre": "Evelyn",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Manos de Servicio",
+  "descripcion": "Evelyn es una joven noble y alegre que siempre está dispuesta a ayudar. Su servicio constante en audiovisuales refleja un corazón fiel y comprometido.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Servicio",
+    "Carisma",
+    "Responsabilidad",
+    "Nobleza"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Apoyo Silencioso: Hace que todo funcione bien sin necesidad de llamar la atención.",
+  "fraseEmblema": "Servir también es amar.",
+  "rolEnElEquipo": "Soporte Fiel",
+  "transformacion": "Evelyn, aunque muchas veces tu trabajo no se note, Dios sí lo ve. Cada cosa que haces con amor deja una huella más grande de lo que imaginas.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "En la Biblia, muchas cosas importantes sucedieron detrás de escena, pero fueron clave para el plan de Dios."
+  }
 }

@@ -13,4 +13,11 @@ export interface JovenData {
     habilidadEspecial: string;
     fraseEmblema: string;
     rolEnElEquipo: string;
+    // New Fields
+    transformacion?: string;
+    promesaBiblica?: string;
+    flipCard?: {
+        tipo: string;
+        contenido: string;
+    };
 }

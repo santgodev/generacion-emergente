@@ -1,14 +1,19 @@
 {
   "nombre": "Diego",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Columna Fiel",
+  "descripcion": "Diego es un apoyo constante. Siempre presente, cuidando, acompañando y sirviendo sin buscar protagonismo.",
   "cualidadesPrincipales": [
-    "Serenidad",
+    "Lealtad",
+    "Servicio",
     "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Responsabilidad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Soporte Silencioso: Sostiene a otros para que puedan cumplir su llamado.",
+  "fraseEmblema": "Servir también es liderar.",
+  "rolEnElEquipo": "Sostén",
+  "transformacion": "Diego, tu forma de amar se ve en lo que haces cada día. Dios honra al que sirve en lo pequeño y permanece firme cuando nadie aplaude.",
+  "flipCard": {
+    "tipo": "personajeBiblico",
+    "contenido": "Se parece a José: fiel, constante y dispuesto a sostener a su familia en todo momento."
+  }
 }

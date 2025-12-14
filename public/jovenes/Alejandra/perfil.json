@@ -1,14 +1,19 @@
 {
   "nombre": "Alejandra",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Brisa Suave",
+  "descripcion": "Alejandra es una joven reservada, pero cuando está con sus amigos, su verdadera personalidad brilla. Su corazón sensible transmite una calma que impacta más de lo que imagina.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Sensibilidad",
+    "Lealtad",
+    "Empatía",
+    "Profundidad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Mirada Profunda: Puede comprender a las personas sin que digan una sola palabra.",
+  "fraseEmblema": "La paz también se habla en silencio.",
+  "rolEnElEquipo": "Guardiana de la calma",
+  "transformacion": "Alejandra, no necesitas hacer ruido para ser importante. En tu forma tranquila hay una fuerza que sostiene y acompaña. Dios usa tu sensibilidad como un regalo para cuidar corazones.",
+  "flipCard": {
+    "tipo": "significadoNombre",
+    "contenido": "Alejandra significa 'la defensora'. Incluso en silencio, proteges y cuidas a quienes amas."
+  }
 }

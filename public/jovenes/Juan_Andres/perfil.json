@@ -1,14 +1,19 @@
 {
-  "nombre": "Juan Andrés",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Juan Andres",
+  "avatarNombre": "Fuerza Noble",
+  "descripcion": "Juan Andrés es fuerte por fuera, pero aún más por dentro. Noble, cariñoso y siempre dispuesto a cuidar a otros.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Nobleza",
+    "Protección",
+    "Cariño",
+    "Fortaleza"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Abrazo Seguro: Brinda apoyo y confianza a quienes lo rodean.",
+  "fraseEmblema": "La fuerza también consuela.",
+  "rolEnElEquipo": "Protector del Grupo",
+  "transformacion": "Juan Andrés, tu forma de cuidar y amar refleja el carácter de Cristo más de lo que imaginas.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "La verdadera fuerza no se impone, se entrega."
+  }
 }

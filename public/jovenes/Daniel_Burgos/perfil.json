@@ -1,14 +1,19 @@
 {
   "nombre": "Daniel Burgos",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Armonía Viva",
+  "descripcion": "Daniel tiene un corazón noble y una conexión especial con la música. Su forma de servir es sencilla, pero profunda.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Nobleza",
+    "Humildad",
+    "Sensibilidad",
+    "Creatividad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Sonido que Acompaña: A través de la música crea ambientes de paz y reflexión.",
+  "fraseEmblema": "Donde hay música sincera, hay presencia.",
+  "rolEnElEquipo": "Conector espiritual",
+  "transformacion": "Daniel, no necesitas ser grande para ser usado. Dios usa tu sencillez y tu talento para tocar corazones de una forma que las palabras no siempre logran.",
+  "flipCard": {
+    "tipo": "personajeBiblico",
+    "contenido": "Tiene similitudes con David: alguien que adoraba a Dios con lo que tenía en sus manos."
+  }
 }

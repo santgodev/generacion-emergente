@@ -1,14 +1,19 @@
 {
   "nombre": "Karen",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Arte en Acción",
+  "descripcion": "Karen es creativa y servicial, con un talento especial para lo visual y lo artístico.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Creatividad",
+    "Servicio",
+    "Sensibilidad",
+    "Talento"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Diseño Inspirado: Transforma ideas en algo que conecta con otros.",
+  "fraseEmblema": "Crear también es servir.",
+  "rolEnElEquipo": "Creativa Visual",
+  "transformacion": "Karen, aunque hoy sirvas menos, tu talento sigue siendo un regalo que Dios puede usar cuando decidas volver a ponerlo en Sus manos.",
+  "flipCard": {
+    "tipo": "datoCurioso",
+    "contenido": "En la Biblia, el arte y el diseño también fueron usados para honrar a Dios."
+  }
 }

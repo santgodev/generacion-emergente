@@ -1,14 +1,19 @@
 {
   "nombre": "Joshua",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Fe en Crecimiento",
+  "descripcion": "Joshua ha vivido cosas difíciles, pero su deseo de seguir a Cristo demuestra una fe fuerte para su edad.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Fe",
+    "Perseverancia",
+    "Valentía",
+    "Esperanza"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Fuerza Interior: Su fe crece incluso en medio de las dificultades.",
+  "fraseEmblema": "Aunque duela, sigo adelante.",
+  "rolEnElEquipo": "Ejemplo Joven",
+  "transformacion": "Joshua, lo que has vivido no te define; Dios está usando cada experiencia para formar algo firme en ti.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "David también fue joven y pequeño, pero Dios veía un corazón grande."
+  }
 }

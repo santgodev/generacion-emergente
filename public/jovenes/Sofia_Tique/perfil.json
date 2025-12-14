@@ -1,14 +1,19 @@
 {
-  "nombre": "Sofía Tique",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Sofia Tique",
+  "avatarNombre": "Descubrimiento Creativo",
+  "descripcion": "Sofía ha conocido la iglesia hace poco y se le nota motivada. Su talento artístico refleja una sensibilidad especial.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Creatividad",
+    "Motivación",
+    "Sensibilidad",
+    "Apertura"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Arte que Conecta: Expresa emociones y fe a través del dibujo y la pintura.",
+  "fraseEmblema": "Todo es nuevo, y todo inspira.",
+  "rolEnElEquipo": "Exploradora Creativa",
+  "transformacion": "Sofía, tu emoción es genuina. Dios disfruta cuando alguien se acerca con un corazón abierto y dispuesto a aprender.",
+  "flipCard": {
+    "tipo": "datoCurioso",
+    "contenido": "En la Biblia, el arte y la creatividad siempre fueron parte de la expresión de fe."
+  }
 }

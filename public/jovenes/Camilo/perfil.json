@@ -1,14 +1,19 @@
 {
   "nombre": "Camilo",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Fuerza Bajo Control",
+  "descripcion": "Camilo refleja un cambio real. Su fuerza no solo es física, también se nota en su carácter y en la forma en que aprende a dominar sus impulsos.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Autocontrol",
+    "Disciplina",
+    "Liderazgo",
+    "Constancia"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Dominio Interior: Sabe detenerse, pensar y elegir el bien incluso en momentos difíciles.",
+  "fraseEmblema": "La verdadera fuerza sabe cuándo detenerse.",
+  "rolEnElEquipo": "Ejemplo de transformación",
+  "transformacion": "Camilo, el cambio que has vivido no es casualidad. Dios ha tomado tu fuerza y la está moldeando para que sea un apoyo y no una carga. Lo que antes era impulso, hoy es carácter en formación.",
+  "flipCard": {
+    "tipo": "personajeBiblico",
+    "contenido": "Recuerda a Sansón en su proceso final: cuando la fuerza aprende a obedecer, se vuelve propósito."
+  }
 }

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import { MouseEvent } from "react";
 
-export function JovenCard({ joven, index, onDelete, relevance = 1 }: { joven: Joven; index: number; onDelete?: () => void; relevance?: number }) {
+export function JovenCard({ joven, index, onDelete, relevance = 1, isTall = false }: { joven: Joven; index: number; onDelete?: () => void; relevance?: number; isTall?: boolean }) {
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
 
@@ -22,10 +22,7 @@ export function JovenCard({ joven, index, onDelete, relevance = 1 }: { joven: Jo
 
     const hasRelevanceLost = relevance < 1;
 
-    // Staggered grid height for masonry feel - randomizing slightly based on index
-    // Real implementation of masonry usually needs JS libs, but we can fake "dynamic" aspect ratios
-    // by just checking index modulo.
-    const isTall = index % 3 === 0;
+    // Staggered grid height removed for uniform alignment
 
     const spotlightBg = useMotionTemplate`
         radial-gradient(
@@ -36,7 +33,7 @@ export function JovenCard({ joven, index, onDelete, relevance = 1 }: { joven: Jo
     `;
 
     return (
-        <div className={`group/card block relative h-full w-full ${isTall ? 'row-span-2' : ''}`}> {/* Wrapper to handle click propagation issues if we used Link directly as root */}
+        <div className={`group/card block relative h-full w-full`}> {/* Wrapper to handle click propagation issues if we used Link directly as root */}
 
             {/* Delete Button - Only visible on hover */}
             <button

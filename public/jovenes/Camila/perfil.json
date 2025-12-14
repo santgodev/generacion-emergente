@@ -1,14 +1,19 @@
 {
-  "nombre": "Camila",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Camila Moreno",
+  "avatarNombre": "Fuerza en Movimiento",
+  "descripcion": "Camila tiene una energía natural que se siente donde llega. Aunque ha pasado por muchos cambios, su esencia sigue llena de vida y creatividad.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Creatividad",
+    "Entusiasmo",
+    "Versatilidad",
+    "Pasión"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Chispa que Enciende: Tiene la capacidad de levantar el ánimo y mover a otros a la acción.",
+  "fraseEmblema": "Lo que Dios enciende, puede volver a arder.",
+  "rolEnElEquipo": "Impulsora",
+  "transformacion": "Camila, las temporadas cambian, pero los dones que Dios puso en ti siguen ahí. No todo lo que se pausa está perdido. Tu energía y talento pueden tomar una nueva forma cuando decidas volver a caminar con propósito.",
+  "flipCard": {
+    "tipo": "personajeBiblico",
+    "contenido": "Tiene similitudes con Ester: una mujer con gracia y carácter, que pasó por procesos antes de volver a levantarse con propósito."
+  }
 }

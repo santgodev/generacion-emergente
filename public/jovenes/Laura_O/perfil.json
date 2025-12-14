@@ -1,14 +1,19 @@
 {
   "nombre": "Laura O",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Semilla Firme",
+  "descripcion": "Laura ha mostrado un deseo sincero de crecer espiritualmente, incluso en medio de luchas internas.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Sinceridad",
+    "Búsqueda",
+    "Humildad",
+    "Constancia"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Raíz Profunda: Crece despacio, pero con firmeza.",
+  "fraseEmblema": "Estoy aprendiendo.",
+  "rolEnElEquipo": "Proceso Vivo",
+  "transformacion": "Laura, cada paso que das cuenta. Dios no te apura, te acompaña.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "El crecimiento verdadero muchas veces empieza en silencio."
+  }
 }

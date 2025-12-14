@@ -1,14 +1,19 @@
 {
   "nombre": "Joyce",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Tiempo Sabio",
+  "descripcion": "Joyce es un joven en proceso, con ganas de crecer, a veces expresivo y otras veces reservado.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Reflexión",
+    "Buen Humor",
+    "Sensibilidad",
+    "Deseo de Crecer"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Aprendiz Paciente: Sabe escuchar y observar antes de actuar.",
+  "fraseEmblema": "Todo llega en su momento.",
+  "rolEnElEquipo": "Buscador Constante",
+  "transformacion": "Joyce, no todas las respuestas llegan de inmediato. Dios también obra en la espera y en los procesos que no se entienden aún. Confía: lo que Él está preparando va más allá de lo que hoy puedes ver.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "Esperar no es perder el tiempo; es confiar mientras Dios trabaja."
+  }
 }

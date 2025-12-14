@@ -1,14 +1,19 @@
 {
-  "nombre": "Santiago G",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Santiago Guevara",
+  "avatarNombre": "Gozo Reciente",
+  "descripcion": "Santiago es un joven carismático y expresivo que ha encontrado a Cristo hace poco. Su entusiasmo y compromiso se notan en su forma de hablar y compartir.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Carisma",
+    "Entusiasmo",
+    "Compromiso",
+    "Alegría"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Palabra Viva: Transmite entusiasmo y fe a través de lo que dice.",
+  "fraseEmblema": "Cuando algo te cambia, se nota.",
+  "rolEnElEquipo": "Voz Entusiasta",
+  "transformacion": "Santiago, tu alegría es natural y contagiosa. Dios puede usar tu forma de ser para acercar a otros, solo sigue caminando con sinceridad.",
+  "flipCard": {
+    "tipo": "comparacionBiblica",
+    "contenido": "Como el endemoniado gadareno, cuando Jesús transforma una vida, nace el deseo de contarlo."
+  }
 }

@@ -10,6 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export function JovenProfileClient({ joven }: { joven: Joven }) {
     const [isRepowered, setIsRepowered] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(false);
 
     // Split name for styling
     const names = joven.data.nombre.split(" ");
@@ -36,24 +37,57 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                 {/* Hero Image Section */}
                 <div className="lg:col-span-5 relative group">
                     <div className="sticky top-24">
-                        <div className={`relative aspect-[4/5] overflow-hidden rounded-sm border transition-all duration-1000 ${isRepowered ? 'border-white/50 shadow-[0_0_30px_rgba(255,255,255,0.1)]' : 'border-white/10 bg-zinc-900'}`}>
+                        <div
+                            className="relative aspect-[4/5] [perspective:1000px] cursor-pointer group/card"
+                            onClick={() => setIsFlipped(!isFlipped)}
+                        >
+                            <motion.div
+                                className={`relative w-full h-full transition-all duration-700 [transform-style:preserve-3d] ${isFlipped ? '[transform:rotateY(180deg)]' : ''}`}
+                            >
+                                {/* FRONT FACE */}
+                                <div className={`absolute inset-0 [backface-visibility:hidden] overflow-hidden rounded-sm border transition-all duration-1000 ${isRepowered ? 'border-white/50 shadow-[0_0_30px_rgba(255,255,255,0.1)]' : 'border-white/10 bg-zinc-900'}`}>
+                                    <DivineAura
+                                        src={joven.realImage}
+                                        alt={joven.data.nombre}
+                                        className="h-full w-full"
+                                        isActive={isRepowered}
+                                    />
 
-                            <DivineAura
-                                src={joven.realImage}
-                                alt={joven.data.nombre}
-                                className="h-full w-full"
-                                isActive={isRepowered}
-                            />
+                                    {/* Holographic Frame Details */}
+                                    <div className={`absolute top-4 left-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
+                                    <div className={`absolute top-4 right-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
+                                    <div className={`absolute bottom-4 left-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
+                                    <div className={`absolute bottom-4 right-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
 
-                            {/* Holographic Frame Details - Fade out when repowered for cleaner look */}
-                            <div className={`absolute top-4 left-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
-                            <div className={`absolute top-4 right-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
-                            <div className={`absolute bottom-4 left-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
-                            <div className={`absolute bottom-4 right-4 w-2 h-2 bg-white z-30 transition-opacity ${isRepowered ? 'opacity-50' : 'opacity-100'}`}></div>
+                                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-[10px] font-mono text-white/50 tracking-[0.3em] z-30">
+                                        SUBJ: {joven.slug.toUpperCase()}
+                                    </div>
 
-                            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-[10px] font-mono text-white/50 tracking-[0.3em] z-30">
-                                SUBJ: {joven.slug.toUpperCase()}
-                            </div>
+                                    {/* Flip Hint */}
+                                    <div className="absolute top-4 right-4 z-40 opacity-0 group-hover/card:opacity-100 transition-opacity bg-black/50 p-1 rounded-full backdrop-blur-sm">
+                                        <Sparkles className="w-4 h-4 text-white/70" />
+                                    </div>
+                                </div>
+
+                                {/* BACK FACE */}
+                                <div className={`absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] overflow-hidden rounded-sm border border-white/20 bg-zinc-900 p-8 flex flex-col items-center justify-center text-center`}>
+                                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-500/10 via-zinc-900 to-zinc-950"></div>
+
+                                    {joven.data.flipCard && (
+                                        <div className="relative z-10">
+                                            <h3 className="text-secondary font-mono text-xs uppercase tracking-widest mb-4">
+                                                {joven.data.flipCard.tipo === 'versiculo' ? 'Promesa Oculta' :
+                                                    joven.data.flipCard.tipo === 'datoCurioso' ? 'Dato Curioso' :
+                                                        joven.data.flipCard.tipo === 'personajeBiblico' ? 'Personaje Bíblico' :
+                                                            joven.data.flipCard.tipo === 'significadoNombre' ? 'Significado' : 'Dato'}
+                                            </h3>
+                                            <p className="text-xl md:text-2xl font-display font-medium text-white italic leading-relaxed">
+                                                "{joven.data.flipCard.contenido}"
+                                            </p>
+                                        </div>
+                                    )}
+                                </div>
+                            </motion.div>
                         </div>
 
                         {/* Avatar Orbit */}
@@ -79,9 +113,37 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                             <span className="block text-2xl md:text-4xl lg:text-5xl text-indigo-500 tracking-normal font-sans font-medium mt-2">{lastName}</span>
                         </motion.h1>
 
-                        <p className="mt-8 text-xl md:text-2xl text-zinc-300 font-light max-w-2xl leading-relaxed border-l-2 border-primary pl-6">
-                            "{joven.data.descripcion}"
-                        </p>
+                        <div className="mt-8 min-h-[100px] border-l-2 border-primary pl-6">
+                            <AnimatePresence mode="wait">
+                                {!isRepowered ? (
+                                    <motion.p
+                                        key="desc"
+                                        initial={{ opacity: 0, x: -20 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        exit={{ opacity: 0, x: 20 }}
+                                        className="text-xl md:text-2xl text-zinc-300 font-light max-w-2xl leading-relaxed"
+                                    >
+                                        "{joven.data.descripcion}"
+                                    </motion.p>
+                                ) : (
+                                    <motion.div
+                                        key="trans"
+                                        initial={{ opacity: 0, x: -20 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        exit={{ opacity: 0, x: 20 }}
+                                    >
+                                        <p className="text-xl md:text-2xl text-white font-medium max-w-2xl leading-relaxed drop-shadow-md">
+                                            {joven.data.transformacion}
+                                        </p>
+                                        {joven.data.promesaBiblica && (
+                                            <p className="mt-4 text-indigo-300 font-mono text-sm tracking-widest italic">
+                                                "{joven.data.promesaBiblica}"
+                                            </p>
+                                        )}
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
+                        </div>
                     </div>
 
                     {/* REPOWER BUTTON */}
@@ -125,8 +187,8 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                                     <motion.span
                                         key={i}
                                         className={`relative px-4 py-2 rounded-full border text-sm transition-all duration-500 cursor-default overflow-hidden ${isRepowered
-                                                ? 'bg-white/10 border-white/40 text-white shadow-[0_0_15px_rgba(255,255,255,0.2)]'
-                                                : 'bg-white/5 border-white/10 hover:bg-white/10'
+                                            ? 'bg-white/10 border-white/40 text-white shadow-[0_0_15px_rgba(255,255,255,0.2)]'
+                                            : 'bg-white/5 border-white/10 hover:bg-white/10'
                                             }`}
                                         animate={isRepowered ? {
                                             scale: 1.05,
@@ -160,6 +222,7 @@ export function JovenProfileClient({ joven }: { joven: Joven }) {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </main>

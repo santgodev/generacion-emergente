@@ -1,14 +1,19 @@
 {
-  "nombre": "Santiago Ávila",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "nombre": "Santiago Avila",
+  "avatarNombre": "Talento en Pausa",
+  "descripcion": "Santiago es carismático y talentoso, aunque hoy se encuentra lejos, su don sigue intacto.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
+    "Talento",
+    "Carisma",
+    "Creatividad",
     "Sensibilidad"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Música que Marca: Su talento conecta emociones profundas.",
+  "fraseEmblema": "No todo está perdido.",
+  "rolEnElEquipo": "Llamado Dormido",
+  "transformacion": "Santiago, Dios no se ha olvidado de ti. Los dones no se pierden, solo esperan el momento de volver a sonar.",
+  "flipCard": {
+    "tipo": "reflexion",
+    "contenido": "A veces alejarse no es el final, sino parte del camino."
+  }
 }

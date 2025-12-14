@@ -1,14 +1,19 @@
 {
   "nombre": "Cristian",
-  "avatarNombre": "Brisa Serena",
-  "descripcion": "Brisa Serena es una joven que transforma ambientes sin esfuerzos. Su calma inspira confianza, y su manera de hablar da seguridad a quienes la rodean.",
+  "avatarNombre": "Voz Clara",
+  "descripcion": "Cristian tiene facilidad para expresarse y una mente ágil. Su forma de hablar puede guiar, enseñar y aclarar caminos.",
   "cualidadesPrincipales": [
-    "Serenidad",
-    "Paciencia",
-    "Escucha activa",
-    "Sensibilidad"
+    "Comunicación",
+    "Inteligencia",
+    "Discernimiento",
+    "Iniciativa"
   ],
-  "habilidadEspecial": "Eco del Consuelo: Es capaz de transmitir paz incluso en los momentos más tensos.",
-  "fraseEmblema": "Lo suave también sostiene.",
-  "rolEnElEquipo": "Equilibradora emocional"
+  "habilidadEspecial": "Palabra que Orienta: Puede explicar y guiar con claridad cuando otros están confundidos.",
+  "fraseEmblema": "Hablar también es servir.",
+  "rolEnElEquipo": "Guía",
+  "transformacion": "Cristian, tu voz no es casualidad. Dios puede usar tu facilidad para hablar como una herramienta para enseñar, acompañar y dar dirección. Cuando escuchas primero, tu voz llega más lejos.",
+  "flipCard": {
+    "tipo": "datoCurioso",
+    "contenido": "Las personas con buena oratoria suelen ser puentes entre ideas y personas."
+  }
 }
